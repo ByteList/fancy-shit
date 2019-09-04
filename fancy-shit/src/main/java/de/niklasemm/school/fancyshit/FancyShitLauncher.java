@@ -1,14 +1,22 @@
 package de.niklasemm.school.fancyshit;
 
 /**
- * Created by nemmerich on 02.09.2019.
+ * Created by Niklas Emmrich on 04.09.2019.
  * <p>
- * Copyright by nemmerich - https://bytelist.de/
+ * Copyright by Niklas Emmrich.
  */
 public class FancyShitLauncher {
+    private static FancyShitLauncher ourInstance = new FancyShitLauncher();
 
-    public static void main(String[] args) {
+    public static FancyShitLauncher getInstance() {
+        return ourInstance;
+    }
 
-        System.out.println("hiii paul");
+    private FancyShitLauncher() {
+        init();
+    }
+
+    private void init() {
+        System.out.println("Init fancy-shit...");
     }
 }
