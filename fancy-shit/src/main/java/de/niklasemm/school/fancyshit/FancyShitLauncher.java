@@ -9,6 +9,6 @@ public class FancyShitLauncher {
 
     public static void main(String[] args) {
 
-        System.out.println('hiiii niklasgi');
+        System.out.println("hiii paul");
     }
 }
