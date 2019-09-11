@@ -1,5 +1,7 @@
 package de.niklasemm.school.fancyshit.api;
 
+import javafx.scene.input.KeyCode;
+
 /**
  * Created by Niklas Emmrich on 09.09.2019.
  * <p>
@@ -11,9 +13,11 @@ public interface IPlayer {
 
     public ILocation getLocation();
 
-    public boolean startMovement(int x, int y);
+    public boolean startMovement();
 
     public boolean endMovement();
 
     public boolean canMove();
+
+    public void addMovement(KeyCode keyCode);
 }
