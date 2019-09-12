@@ -41,7 +41,7 @@ public class Player implements IPlayer {
 
             while (isMoving) {
                 double currentX = this.location.getY(), currentY = this.location.getY();
-                
+
 
             }
 
